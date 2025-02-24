@@ -1,0 +1,40 @@
+Tugas 1: Mengurutkan List Menggunakan Lambda
+Buat program Java yang mengurutkan daftar string secara menurun (descending order) menggunakan ekspresi lambda.
+🔹 Input: ["Pisang", "Apel", "Mangga", "Ceri", "Jeruk"]
+🔹 Output yang Diharapkan: ["Jeruk", "Mangga", "Ceri", "Pisang", "Apel"]
+
+Tugas 2: Memfilter Bilangan Genap Menggunakan Streams
+Buat daftar angka bulat dan gunakan Lambda serta Stream API untuk menyaring hanya angka yang genap.
+🔹 Input: [10, 3, 7, 14, 5, 20, 6, 9]
+🔹 Output yang Diharapkan: [10, 14, 20, 6]
+
+Tugas 3: Membuat Functional Interface Kustom
+Definisikan interface fungsional bernama StringModifier yang memiliki metode modify(String s).
+Kemudian, gunakan lambda expression untuk:
+	•	Mengubah teks menjadi huruf kapital
+	•	Mengganti spasi dengan tanda hubung (-)
+🔹 Input: "hello lambda world"
+🔹 Output yang Diharapkan: "HELLO-LAMBDA-WORLD"
+
+
+Tugas 4: Menggunakan Interface Consumer
+Buat metode yang menerima Consumer<String> dan menerapkannya pada daftar nama untuk mencetak setiap nama dalam huruf kapital.
+🔹 Input: ["Alice", "Bob", "Charlie"]
+🔹 Output yang Diharapkan:
+Tugas 5: Menjumlahkan Angka dengan BiFunction
+Gunakan BiFunction<Integer, Integer, Integer> untuk membuat lambda yang menjumlahkan dua angka.
+🔹 Input: (10, 20)
+🔹 Output yang Diharapkan: 30
+
+Tugas 6: Menggunakan Predicate untuk Memfilter String
+Buat fungsi Java yang menerima daftar string dan Predicate untuk menyaring hanya string yang diawali huruf ‘A’.
+🔹 Input: ["Apel", "Pisang", "Alpukat", "Ceri", "Aprikot"]
+🔹 Output yang Diharapkan: ["Apel", "Alpukat", "Aprikot"]
+
+Tugas 7: Menggabungkan Predicates
+Buat program Java yang menggunakan chaining Predicate untuk menyaring:
+	•	String yang diawali dengan huruf ‘A’
+	•	String yang memiliki lebih dari 5 karakter
+🔹 Input: ["Apel", "Alpukat", "Almond", "Aprikot", "Ace", "Pisang"]
+🔹 Output yang Diharapkan: ["Alpukat", "Almond", "Aprikot"]
+
